@@ -18,7 +18,7 @@ public class Weight {
     }
 
     public Boolean lessThan(float w) {
-        return w < this.weightLbs;
+        return w > this.weightLbs;
     }
 
     public float addTo(float w) {
