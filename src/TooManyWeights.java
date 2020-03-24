@@ -4,5 +4,5 @@ public class TooManyWeights extends Exception {
     public TooManyWeights(String errorMessage) {
         super(errorMessage);
     }
-    
+
 }

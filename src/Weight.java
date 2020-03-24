@@ -1,9 +1,18 @@
+/*
+File: Weight.java
+Author: Yael Brown-Evans
+Date: March 23, 2020
+Purpose: Used to provide methods and variables
+for weight instances used in Project1.java
+ */
+
 import java.text.DecimalFormat;
 
 public class Weight {
 
     private float weightLbs = 0.0f;
     private float weightOz = 0.0f;
+    private final float CONSTANT = 16.0f;
 
     private static DecimalFormat df = new DecimalFormat("0.000");
 
@@ -46,5 +55,4 @@ public class Weight {
             return this.weightLbs * 16;
         }
     }
-
 }

@@ -1,6 +1,16 @@
-// The first programming project involves writing a program that computes the minimum, the maximum and the average weight of a collection of weights represented
-// in pounds and ounces that are read from an input file. This program consists of two classes. The first class is the Weight class, which is specified in integer
-// pounds and ounces stored as a double precision floating point number. It should have five public methods and two private methods.
+/*
+File: Project1.java
+Author: Yael Brown-Evans
+Date: March 23, 2020
+Purpose: Used to read a file of weights with 25 individual weights
+and sort numerically and find the average of the weights.
+ */
+
+/*
+ The first programming project involves writing a program that computes the minimum, the maximum and the average weight of a collection of weights represented
+ in pounds and ounces that are read from an input file. This program consists of two classes. The first class is the Weight class, which is specified in integer
+ pounds and ounces stored as a double precision floating point number. It should have five public methods and two private methods.
+*/
 
 import javax.swing.*;
 import java.io.File;
